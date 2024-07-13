@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+
+
+}
+header{
+    height: 40px;
+    background-color: lightgray;
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+}
+header svg{
+    height: 14px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#facebook{
+    margin-left: 700px;
+    margin-top: 15px;
+    height: 14px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1.3fr;
+    grid-template-rows: 80px 80px 431px 263px;
+}
+
+#logo{
+    grid-column: 2;
+}
+#navegacao{
+grid-column: 3/6;
+display: flex;
+flex-direction: ROW;
+GAP:50PX;
+margin-top: 20px;
+}
+#navegacao h1{
+    font-size: 14px;
+    color: #252525;
+}
+
+#coracao{
+    height: 18px;
+    margin-top: 6px;
+    margin-left: 120px;
+
+}
+#sacola{
+    height: 18px;
+    margin-top: 6px;
+    
+}
+#menu{
+    grid-column: 2;
+    grid-row: 2/4;
+    overflow: hidden;
+    color: #1c1c1c;
+    font-size: 18px;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;}
+
+#busca{
+    grid-column: 3/6;
+    grid-row: 2;
+    align-items: center;
+}
+
+#phone{
+    height: 20px;
+    margin-right: 60px;
+    float: right;
+}
+#telefone li{
+  float: right;
+  list-style: none;
+ 
+}
+
+
+
+#banner{
+    grid-column: 3/6;
+    grid-row: 3;
+    background-image: url(banner.jpg);
+    margin-bottom: 50px;
+  
+
+}
+
+#banner h2{
+    font-size: 14px;
+    color: #7fad39;
+    font-family: "Cairo", sans-serif;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+#banner h1{
+    font-family: "Cairo", sans-serif;
+    font-size: 46px;
+    color: #252525;
+    margin-left: 40px;
+}
+#banner p{
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    color: #6f6f6f;
+    margin-left: 40px; 
+}
+#banner a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    width: 150px;
+    height: 30px;
+    background-color: #7fad39;
+    margin-left: 15px;
+    text-align: center;
+}
+#prod01{
+    grid-row: 4;
+    grid-column: 3;
+    background-image: url(cat-1.jpg.webp);
+    position: relative;
+   
+}
+#prod02{
+    grid-row: 4;
+    grid-column: 2;
+    background-image: url(cat-5.jpg.webp);
+    position: relative;
+}
+#prod03{
+    grid-row: 4;
+    grid-column: 4;
+    background-image: url(cat-2.jpg.webp);
+    position: relative;
+}
+#prod04{
+    grid-row: 4;
+    grid-column: 5;
+    background-image: url(cat-3.jpg.webp);
+    position: relative;
+}
+
+#prod02 h1{
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+#prod01 h1{
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+#prod03 h1{
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+#prod04 h1{
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+ 
+    
+}
+
+#produtos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: 270px 100px 270px 100px ;
+    width: 60.5%;;
+    margin: auto;
+    gap: 2%;
+}
+#drop{
+    position: relative;
+}
+#menu-drop{
+position: absolute;
+list-style: none;
+padding: 0;
+width: 200%;
+opacity: 0;
+z-index: -10;
+}
+#drop:hover>#menu-drop{
+    opacity: 1;
+    z-index: 10;
+}
+#texto{
+    text-align: center;
+    font-size: 36px;
+    color: #1c1c1c;
+}
+#paginas{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: auto;
+    width: 30%;
+    margin-top: 50px;
+}
+#promocoes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin-left: 300px;
+}
+
+
+
+#produtosgrid{ display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px 270px 270px ;
+    width: 60%;
+    margin: auto;
+    gap: 2%;
+    list-style: none;
+    font-size: 24px;
+    margin-top: 50px;
+
+}
+
+
+#titulo{
+        text-align: center;
+        font-family: "Cairo", sans-serif;
+        font-size: 36px;
+        color: #1c1c1c;
+        margin-top: 100px;
+}
+#images{
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ; 
+    margin-left: 380px;
+    gap: 2%;
+}
+li{
+    color: #1c1c1c;
+    font-size: 20px;
+}
+
+#rodape{
+    width: 100%;
+    background-color: #f3f6fa;
+    height: 300px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ; 
+    
+}
+#rodapeLOGO{
+    margin-top: 50px;
+    font-family: "Cairo", sans-serif;
+
+}
+#rodapeLOGO li{
+    list-style: none;
+    font-size: 16px;
+}
+#rodape2{
+    margin-top: 50px;
+    font-family: "Cairo", sans-serif;
+    margin-left: 50px;
+}
+#rodape2 h6{
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-left: 40px;
+}
+#rodape2 li{
+    list-style: none;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+#lista1{
+    float: left;
+}
+
+#lista2{
+float: right;
+
+}
+
+#rodape3 h6{
+    font-size: 16px;
+    color: #1c1c1c;
+ 
+}
+#rodape3{
+    margin-top: 50px;
+    font-family: "Cairo", sans-serif;
+    margin-left: 50px;
+}
+button{
+    background-color: #7fad39;
+    color: white;
+   border-color: #7fad39;
+}
+
+
+
+#face{
+   height: 20px;
+}
+#insta{
+    height: 20px;
+    margin-left: 10px;
+}
+#pint{
+    height: 20px;
+    margin-left: 10px;
+}
+#X{
+    height: 20px;
+    margin-left: 10px;
+}
+
